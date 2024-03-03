@@ -15,11 +15,11 @@ const Tag = () => {
   }
 
   return (
-    <div className="w-full md:w-1/2 border border-teal-950 bg-blue-500 rounded-lg flex flex-col items-center gap-y-7 mt-4 md:mt-30px">
+    <div className="w-full md:w-1/3 border border-teal-950 bg-blue-400 rounded-lg flex flex-col p-3  items-center gap-y-7 mt-3">
       <h1 className="mt-4 text-2xl font-bold">Random {tag} Gif</h1>
       
       {
-        loading ? (<Spinner />) : (<img src={gif} className="w-full" alt="Gif" />)
+        loading ? (<Spinner />) : (<img src={gif} className="w-full p-3 sm:h-[300px] md:h-[300px] object-cover" alt="Gif" />)
       }
 
       <input
