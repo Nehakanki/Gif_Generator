@@ -7,7 +7,7 @@ function App() {
     <div className='w-full h-screen flex flex-col background relative overflow-x-hidden'>
       <h1 className='bg-white rounded-sm w-11/12 mt-[30px] text-center mx-auto px-5 py-5
       text-3xl  font-bold'>Random GIFs</h1>
-      <div className='flex flex-col w-full items-center mt-[20px]' >
+      <div className='flex flex-col w-full items-center mt-[20px] ' >
         <Random/>
         <Tag/>
       </div>
